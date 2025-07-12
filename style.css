@@ -140,16 +140,45 @@
     background-color: rgb(229, 231, 255);
 }
 
-.main-touch-section{
+.main-section{
+    padding: 130px 230px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    background-color: blueviolet;
+    gap: 100px;
     
 }
 .touch-section{
-    flex:2;
-}
+    width: 50%;
+    justify-content: space-around;
     
+}
+
+section input[type="text"],  section input[type="email"], section textarea{
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.touch-btn{
+    width:100%;
+    background-color:blue;
+    border-radius: 5px;
+    padding:10px;
+    margin:none;
+}
+.touch-btn:hover{
+    color:white;
+}
+.touch-title{
+    margin:20px;
+}
+
+.menu-footer{
+    display:flex;
+    gap:4px;
+}
 
 
